@@ -1,6 +1,6 @@
 // Author: ntannn
 const API_KEY = 'YOUR_KEY'; // enter your API key
-const URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent'; //change model (1.5-flash | 1.5-pro)
+const URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent'; //change model (1.5-flash | 1.5-pro)
 
 function askGemini(prompt) {
   const payload = {
